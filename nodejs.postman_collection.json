@@ -1,0 +1,136 @@
+{
+	"info": {
+		"_postman_id": "cf7f17aa-3d53-4bf6-88a0-c169ef0615a8",
+		"name": "nodejs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "15538441",
+		"_collection_link": "https://www.postman.com/solar-crescent-599240/workspace/user-management-node-express-mongodb/collection/15538441-cf7f17aa-3d53-4bf6-88a0-c169ef0615a8?action=share&source=collection_link&creator=15538441"
+	},
+	"item": [
+		{
+			"name": "GetAllUsers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"first_name\":\"Shripad\",\n    \"last_name\":\"Suradkar\",\n    \"email\":\"shrisuradkar07@gmail.com\",\n    \"phone\":\"1234567890\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9000/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetUserById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/users/657169f07d9d975083bd7b0b",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"users",
+						"657169f07d9d975083bd7b0b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateUser",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"first_name\":\"Shripad\",\n    \"last_name\":\"Suradkar\",\n    \"email\":\"shrisuradkar07@gmail.com\",\n    \"phone\":\"1234567890\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9000/users/657169f07d9d975083bd7b0b",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"users",
+						"657169f07d9d975083bd7b0b"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteUser",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"first_name\":\"Shripad\",\n    \"last_name\":\"Suradkar\",\n    \"email\":\"shrisuradkar07@gmail.com\",\n    \"phone\":\"1234567890\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9000/users/657169f07d9d975083bd7b0b",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"users",
+						"657169f07d9d975083bd7b0b"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

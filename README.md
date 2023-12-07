@@ -14,7 +14,7 @@ This repository contains code for a Node.js application built with Express.js to
 ```npm install```
 
 4. Set up MongoDB:
-Ensure MongoDB is installed and running locally or specify the connection URI in the constants/default.js file.
+Ensure MongoDB is installed and running locally or specify the connection URI in the **constants/default.js** file.
 
 5. Start the server:
 ```node app.js```
@@ -29,3 +29,4 @@ Once the server is running, you can use the following API endpoints to manage us
 5. **DELETE /users/:id:** Delete a user by ID
 
 ## Postman Collection
+Please check **/restapi-user-management-node-express-mongodb-monogdb/nodejs.postman_collection.json** file
