@@ -30,3 +30,5 @@ Once the server is running, you can use the following API endpoints to manage us
 
 ## Postman Collection
 Please check **/restapi-user-management-node-express-mongodb-monogdb/nodejs.postman_collection.json** file
+or
+https://www.postman.com/solar-crescent-599240/workspace/user-management-node-express-mongodb/collection/15538441-cf7f17aa-3d53-4bf6-88a0-c169ef0615a8
